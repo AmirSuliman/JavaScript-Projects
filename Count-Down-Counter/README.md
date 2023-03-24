@@ -1,1 +1,1 @@
-This project counts the remaining days, hours, minuts, and seconds untill next year.
+This project counts the remaining days, hours, minutes, and seconds until next year.
