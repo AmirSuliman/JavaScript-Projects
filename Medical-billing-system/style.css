@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Arial";
+}
+
+body {
+  padding-top: 10px;
+}
+.bill-container {
+  margin: auto auto;
+  border: 2px solid black;
+  padding: 20px 12px;
+  padding-top: 0;
+  width: 60%;
+}
+
+h1 {
+  color: green;
+  text-align: center;
+}
+
+.bg-container {
+  background-color: rgba(249, 246, 208, 0.849);
+  padding-bottom: 5px;
+}
+.main-container {
+  display: flex;
+}
+
+h3 {
+  color: blue;
+  background-color: rgb(218, 246, 249);
+  padding: 10px 5px;
+  margin-right: 2px;
+}
+.s-no,
+.items,
+.unit-cost,
+.quantity,
+.cost {
+  text-align: center;
+}
+h1,
+h3,
+p {
+  padding: 5px 5px;
+}
+
+.quantity input {
+  display: block;
+  margin: 5px auto;
+  padding: 5px;
+  text-align: center;
+  width: 50px;
+  outline: none;
+  border-radius: 0px;
+  border: 1px solid black;
+}
+
+.output {
+  border: 1px solid black;
+  width: fit-content;
+  font-weight: normal;
+  padding: 3px 18px;
+  margin: 8px auto;
+  background-color: white;
+}
+
+.total-container {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+.total-container h3 {
+  background-color: inherit;
+  color: black;
+  margin: 5px 0;
+  position: relative;
+  right: 70px;
+}
+button {
+  color: red;
+  font-weight: bolder;
+  background-color: rgb(248, 230, 230);
+  border-radius: 5px;
+  padding: 10px 5px;
+  border-left: 2px solid white;
+  border-top: 2px solid white;
+  border-bottom: 2px solid dark;
+  border-right: 2px solid dark;
+  margin: 10px auto;
+  display: block;
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+  cursor: pointer;
+}

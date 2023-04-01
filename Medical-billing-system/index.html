@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <title>Task01</title>
+  </head>
+  <body>
+    <div class="bill-container">
+      <h1>Medical Billing System</h1>
+      <div class="bg-container">
+        <div class="main-container">
+          <div class="s-no">
+            <h3>S.No</h3>
+            <p>1</p>
+            <p>2</p>
+            <p>3</p>
+          </div>
+          <div class="items">
+            <h3>Item</h3>
+            <p>Erithromycin 100 mg</p>
+            <p>Femaramycin 500 mg</p>
+            <p>Oximycin 2 mg</p>
+          </div>
+          <div class="unit-cost">
+            <h3>Unit Cost (Rs.)</h3>
+            <p>58</p>
+            <p>46</p>
+            <p>1090</p>
+          </div>
+          <div class="quantity">
+            <h3>Quantity</h3>
+            <input class="input1" type="text" value="0" /><input
+              class="input2"
+              type="text"
+              value="0"
+            /><input class="input3" type="text" value="0" />
+          </div>
+          <div class="cost">
+            <h3>Cost (Rs.)</h3>
+            <p class="output1 output">0</p>
+            <p class="output2 output">0</p>
+            <p class="output3 output">0</p>
+            <div class="total-container">
+              <h3>Total <span class="output output4">0</span></h3>
+              <h3>GST at 15% <span class="output output5">0</span></h3>
+              <h3>Grand Total Rs. <span class="output output6">0</span></h3>
+            </div>
+          </div>
+        </div>
+
+        <!-- <div class="total-container">
+          <div class="total">
+            <h3>Total</h3>
+            <p>0</p>
+          </div>
+          <div class="gst">
+            <h3>GST at 15%</h3>
+            <p>0</p>
+          </div>
+          <div class="grand-total">
+            <h3>Grand Total Rs.</h3>
+            <p>0</p>
+          </div>
+        </div> -->
+        <button type="button">Update Grand Total</button>
+      </div>
+    </div>
+  </body>
+</html>
